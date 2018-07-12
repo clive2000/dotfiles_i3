@@ -7,3 +7,4 @@ My i3wm dotfiles
 * ttf-font-awesome
 * ttf-material-icons
 * nerd-fonts-complete
+* adobe-source-code-pro-fonts
