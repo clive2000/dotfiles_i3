@@ -423,4 +423,4 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 # Set Wallpaper
-exec --no-startup-id feh --bg-scale ~/.background/stars1.jpg
+# exec --no-startup-id feh --bg-scale ~/.background/stars1.jpg
