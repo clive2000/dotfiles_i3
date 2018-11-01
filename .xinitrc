@@ -1,9 +1,5 @@
 #!/bin/sh
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 
-# If laptop, scale display
-if [ "$HOSTNAME" = trsh ]; then
-    xrandr --output eDP1 --mode 1920x1200
-fi
-
+xrandr -s 2560*1440 -r 144 --dpi 192
 exec i3
